@@ -1,0 +1,24 @@
+{
+  "name": "via-sci",
+  "version": "1.0.0",
+  "description": "Backend for Omics Data Retrieval and Analysis System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Bülent Coşan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "sequelize": "^6.30.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "type": "module"
+}
